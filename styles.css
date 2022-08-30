@@ -3,13 +3,24 @@
     padding: 0; 
     box-sizing: border-box;
 }
+
+ul {
+    list-style: none;
+}
+
 main {
+    margin: 1rem;
     display: grid;
     grid-template-columns: 30% 1fr;
 }
 
+.left {
+    background-color: aquamarine;
+}
 
-
+.left-image img {
+    width: 100%;
+}
 
 
 
