@@ -1,9 +1,18 @@
-* body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*,
+body {
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
+body {
+    background-color: gainsboro;
+}
 ul {
     list-style: none;
 }
@@ -14,8 +23,15 @@ main {
     grid-template-columns: 30% 1fr;
 }
 
+.personal,
+.skills,
+.languages {
+    padding: 1rem;
+    line-height: 2;
+}
+
 .left {
-    background-color: aquamarine;
+    background-color: #fff;
 }
 
 .left-image img {
@@ -30,7 +46,7 @@ main {
 }
 .left-image h2 {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 1rem;
     color: aliceblue;
     
