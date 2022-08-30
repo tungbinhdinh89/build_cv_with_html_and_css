@@ -21,6 +21,7 @@ main {
     margin: 1rem;
     display: grid;
     grid-template-columns: 30% 1fr;
+    grid-gap: 2rem;
 }
 
 .personal,
@@ -44,6 +45,7 @@ main {
 .left-image {
     position: relative;
 }
+
 .left-image h2 {
     position: absolute;
     bottom: 10px;
@@ -51,3 +53,42 @@ main {
     color: aliceblue;
     
 }
+.right {
+    background: white;
+    padding: 1.5rem;
+}
+
+.experience {
+    line-height: 2;
+}
+
+.experience ul {
+    margin: 2rem;
+}
+
+.date {
+    color: rgb(16, 101, 212);;
+}
+
+
+.current {
+    background-color:rgb(61, 132, 224);
+    color: #333;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+.my-name {
+    background-color:rgb(16, 101, 212);
+    color: rgb(59, 10, 10);
+    border-radius: 3px;
+    
+}
+
+.education {
+    line-height: 2;
+}
+
+.education ul {
+    margin: 2rem;
+}    
